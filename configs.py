@@ -42,7 +42,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "filesaveranddownloaderr_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002065957896))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1090158120"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://mongodbdatabase:Mongodb@#2000@cluster0.75gkwwo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://mongodbdatabase:filesharingbottk@cluster0.ev5q7xt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002102710041")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002007504280")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
